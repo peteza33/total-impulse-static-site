@@ -4,8 +4,12 @@ generate_rss = true
 compile_sass = true
 
 title = "Total Impulse"
+
 description = "Space Propulsion"
+
 highlight_code = true
+
+highlight_theme = "solarized-light"
 
 taxonomies = [
     {name = "categories", rss = true, paginate_by = 5},
