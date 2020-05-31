@@ -1,9 +1,9 @@
 +++
-title = "First post bitch!"
-date = 2020-05-31
+title = "Second test post"
+date = 2020-06-01
 
 [taxonomies]
-categories = ["Odd"]
+categories = ["Deployment", "Site"]
 tags = ["A", "B"]
 +++
 

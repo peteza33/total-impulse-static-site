@@ -1,10 +1,10 @@
 +++
-title = "Second sluts!"
-date = 2020-06-01
+title = "First post test"
+date = 2020-05-31
 
 [taxonomies]
-categories = ["Even"]
-tags = ["B", "C"]
+categories = ["Deployment", "Site"]
+tags = ["A", "B"]
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
