@@ -1,4 +1,6 @@
 +++
+draft = true
+
 title = "test out katex and figures"
 date = 2020-06-03
 
