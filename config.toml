@@ -5,11 +5,11 @@ compile_sass = true
 
 title = "Total Impulse"
 
-description = "Space Propulsion"
+description = "In-Space Propulsion"
 
 highlight_code = true
 
-highlight_theme = "solarized-light"
+highlight_theme = "inspired-github"
 
 taxonomies = [
     {name = "categories", rss = true, paginate_by = 5},
@@ -19,6 +19,7 @@ taxonomies = [
 [extra]
 author = "Pete"
 clean_blog_menu = [
-    {url = "$BASE_URL/", name = "Home"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/about", name = "About"},
 ]

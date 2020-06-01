@@ -2,14 +2,38 @@
 
 {% block title %}{{ config.title }} - Categories{% endblock %}
 
+
+<!-- Page Header -->
+{% block header %}
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/main-bg.jpg")}}')">
+  <div class="overlay">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Categories</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{% endblock header %}
+
+
 {% block content %}
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+          <p>All categories used in posts:</p>
             <ul>
+                {% if terms %}
                 {% for category in terms %}
-                <li><a href="{{ category.permalink }}">{{ category.name }}</a></li>
+                <li><a href="{{ category.permalink }}"><strong>{{ category.name }}</strong></a></li>
                 {% endfor %}
+                {% else %}
+                <li>No categories to list yet. Check back soon</li>
+                {% endif %}
             </ul>
         </div>
     </div>
