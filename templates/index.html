@@ -87,7 +87,7 @@
       <div class="col-lg-10 col-md-10 mx-auto">
         <div class="posts">
           {% for page in paginator.pages %}
-          <div class="post-preview" align = "justify">
+          <div class="post-preview">
             {{ post_macros::page_title(page=page) }}
             <p class="post-summary">{{ page.summary | safe }}</p>
           </div>
@@ -116,7 +116,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-md-10 mx-auto">
-          <p class="copyright text-muted">Copyright &copy; totalimpulse.net</p>
+          <p class="copyright text-muted">Copyright &copy; 2020 totalimpulse.net</p>
         </div>
       </div>
     </div>
