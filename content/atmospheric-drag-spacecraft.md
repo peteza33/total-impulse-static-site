@@ -3,7 +3,7 @@ title = "Atmospheric Drag on LEO Spacecraft"
 date = 2020-06-01
 
 [taxonomies]
-categories = ["Propulsion Sizing"]
+categories = ["Propulsion Sizing", "Electric Propulsion"]
 tags = ["VLEO", "Drag", "EP"]
 +++
 

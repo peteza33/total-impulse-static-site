@@ -3,8 +3,8 @@ title = "ADN-Based LMP-103S Green Propellant Implementation on SkySat"
 date = 2020-06-02
 
 [taxonomies]
-categories = ["Propulsion Design"]
-tags = ["HPGP", "LMP-103S", "ADN"]
+categories = ["Propulsion Design", "Chemical Propulsion"]
+tags = ["HPGP", "LMP-103S", "ADN", "Firsts!"]
 +++
 SkySat-3, launched in June 2016 on PSLV, was the first commercial spacecraft to load and fly ECAPS' [ADN](https://en.wikipedia.org/wiki/Ammonium_dinitramide) based green monopropellant known as LMP-103S. Previously the technology had flown on the Swedish Space Corporations [PRISMA](https://en.wikipedia.org/wiki/Prisma_(satellite_project)) mission, which launched in June 2010. 
 <!-- more -->
@@ -40,3 +40,10 @@ At the time of posting, SkySat-3 to SkySat-15 are operating in-space and SkySat-
 | SkySat-8, 9, 10, 11, 12, 13 | Minotaur | [Vandenberg, USA](https://goo.gl/maps/FpDtL1BTeQUwVSJZ8)       | Oct 2017  |              15.5 |
 | SkySat-14, 15               | Falcon 9 | [Vandenberg, USA](https://goo.gl/maps/FpDtL1BTeQUwVSJZ8)       | Dec 2018  |               3.0 |
 |                             |          |                       | **Total** |               37.3 |
+
+## Further Reading
+For more detailed information and on-orbit operation results, take a look at these conference papers:
+
+["On-Orbit Operation and Performance of Ammonium Dinitramide (ADN) Based High Performance Green Propulsion (HPGP) Systems"](http://sci-hub.tw/10.2514/6.2017-4673), Peter Friedhoff, Alisa Hawkins, John Carrico, Jonathan Dyer, Kjell Anflo, 2017 Joint Propulsion Conference. July 2017
+
+["Growing Constellation of Ammonium Dinitramide (ADN) Based High Performance Green Propulsion (HPGP) Systems"](https://sci-hub.tw/10.2514/6.2018-4754), Peter Friedhoff, Kjell Anflo, Peter Thormahlen, Mathias Persson. 2018 Joint Propulsion Conference. July 2018
